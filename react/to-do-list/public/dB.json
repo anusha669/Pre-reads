@@ -1,0 +1,29 @@
+{
+  "todo-list": [
+    {
+      "id": 2,
+      "task": "Learn react",
+      "state": 0
+    },
+    {
+      "id": 3,
+      "task": "finish excercise",
+      "state": 0
+    },
+    {
+      "id": 1,
+      "task": "Learn JS",
+      "state": 1
+    },
+    {
+      "task": "walk",
+      "state": 1,
+      "id": 5
+    },
+    {
+      "id": 6,
+      "task": "Learn Java",
+      "state": 0
+    }
+  ]
+}
