@@ -16,7 +16,6 @@ public class PythagoreanTriplet{
                 c = n - ( a + b);
                 if( (a*a + b*b) == c*c)
                 {
-                    // result.add({a, b, c});
                     System.out.println(a+" "+b+" "+c);
                 }
             }
