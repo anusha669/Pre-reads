@@ -1,3 +1,5 @@
+import {len} from "./length.js";
+
 // call back function
 function perfect_squares(current_value)
 {
@@ -8,7 +10,7 @@ function perfect_squares(current_value)
 function map(array, callback_function)
 {
     let output = [];
-    for(let i =0; i <array.length; i++)
+    for(let i =0; i <len(array); i++)
     {
         output.push(callback_function(array[i]));
     }

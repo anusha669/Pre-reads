@@ -1,3 +1,5 @@
+import {len} from "./length.js";
+
 // call back fn -> boolean
 function is_odd_number(current_element)
 {
@@ -8,7 +10,7 @@ function is_odd_number(current_element)
 function filter(array, callback_function)
 {
     let output = [];
-    for(let i=0;i<array.length; i++)
+    for(let i=0;i<len(array); i++)
     {
         if( callback_function(array[i]) )
             output.push(array[i]);
